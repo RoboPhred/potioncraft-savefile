@@ -17,6 +17,7 @@ This mod uses BepInEx 5.
 
 - Install [version 5](https://github.com/BepInEx/BepInEx/releases) or later by extracting the BepInEx zip file into your PotionCraft folder.
 - Run the game once, to let BepInEx create its folder structure.
+- Download the mod from the [releases page](https://github.com/RoboPhred/potioncraft-savefile/releases).
 - Place the potioncraft-savefiles.dll file from the download into `PotionCraft/BepInEx/Plugins`.
 
 ## Uninstalling
