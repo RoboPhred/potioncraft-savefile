@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>RoboPhredDev.PotionCraft.SaveFiles</RootNamespace>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx.Harmony" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\BepInEx.Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule" CopyToPublishDirectory="Never">
+      <HintPath>.\externals\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+</Project>
