@@ -20,6 +20,10 @@ This mod uses BepInEx 5.
 - Download the mod from the [releases page](https://github.com/RoboPhred/potioncraft-savefile/releases).
 - Place the potioncraft-savefiles.dll file from the download into `PotionCraft/BepInEx/Plugins`.
 
+## Usage
+
+When the mod is installed, running the game should produce copies of your save files at `PotionCraft/saves` if copies do not already exist.  These save files can then be copied to other computers where the mod is also installed.  If the game finds files in that folder that represent saves, those files will be used to load the save instead of using the registry.
+
 ## Uninstalling
 
 The mod is safe to uninstall, and progress will not be lost. The mod saves your game to both the filesystem and to the registry, so removing the mod will let the game fall back to the registry saves.
