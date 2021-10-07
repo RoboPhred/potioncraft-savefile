@@ -1,5 +1,7 @@
 # PotionCraft Save Files
 
+__DEPRECATED__: The game now implements this feature natively.  This mod is no longer needed.
+
 Save your PotionCraft game to the filesystem, allowing you to edit and transfer your save files.
 
 Saves are stored in the PotionCraft directory under the `saves` folder.
