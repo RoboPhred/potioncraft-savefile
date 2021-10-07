@@ -1,6 +1,8 @@
-# PotionCraft Save Files
+## DEPRECATED
 
-__DEPRECATED__: The game now implements this feature natively.  This mod is no longer needed.
+The game now implements this feature natively.  This mod is no longer needed.
+
+# PotionCraft Save Files
 
 Save your PotionCraft game to the filesystem, allowing you to edit and transfer your save files.
 
